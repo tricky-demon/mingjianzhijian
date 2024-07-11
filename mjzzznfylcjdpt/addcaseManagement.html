@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <meta name="robots" content="noindex, nofollow">
+    <!--favicon-->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <!--css-->
+    <link href="assets/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="assets/lib/metismenu/css/metisMenu.min.css" rel="stylesheet">
+    <link href="assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <title>明鉴智佐智能法医临床鉴定平台</title>
+</head>
+
+<body>
+    <!--preloader-->
+    <div class="preloader"></div>
+    <!--main wrapper start-->
+    <div class="main-wrapper">
+        <!--sidebar start -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+				<div class="title">
+					<h6 style="text-align: center;color: var(--color-primary);">明鉴智佐智能法医临床鉴定平台</h6>
+				</div>
+                <div class="sidebar-toggle-icon ms-auto"><i class="fa fa-bars"></i>
+                </div>
+            </div>
+            <!--navigation start-->
+            <ul class="metismenu" id="menu">
+                <li>
+                    <a href="index.html">
+                        <div class="icon"><i class="fas fa-house"></i>
+                        </div>
+                        <div class="title">首页</div>
+                    </a>
+
+                </li>
+						<li>
+							<a href="javascript:void(0);" class="has-arrow">
+								<div class="icon"><i class="fa fa-area-chart"></i></div>
+								<div class="title">案件管理</div>
+							</a>
+							<ul>
+								<li> <a href="caseManagement.html"><i class="fa fa-minus"></i>案件管理</a></li>
+									<li><a href="caseInformation.html"><i class="fa fa-minus"></i>案件信息</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="has-arrow">
+								<div class="icon"><i class="fa fa-caret-up"></i></div>
+								<div class="title">实验室信息</div>
+							</a>
+							<ul>
+								<li> <a href="laboratoryInformation.html"><i class="fa fa-minus"></i>实验室信息</a></li>
+									<li><a href="reagentInformation.html"><i class="fa fa-minus"></i>试剂信息</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="has-arrow">
+								<div class="icon"><i class="fa fa-female"></i></div>
+								<div class="title">设备信息</div>
+							</a>
+							<ul>
+								<li> <a href="equipmentInformation.html"><i class="fa fa-minus"></i>设备信息</a></li>
+									<li><a href="personnelInformation.html"><i class="fa fa-minus"></i>人员信息</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="has-arrow">
+								<div class="icon"><i class="fa fa-external-link"></i></div>
+								<div class="title">数据统计</div>
+							</a>
+							<ul>
+								<li> <a href="dataStatistics.html"><i class="fa fa-minus"></i>数据统计</a></li>
+							</ul>
+						</li>
+            </ul>
+            <!--navigation end-->
+        </div>
+        <!--sidebar end -->
+
+        <!--header top start-->
+        <header>
+            <div class="topbar">
+                <nav class="navbar navbar-expand">
+                    <div class="mobile-toggle-menu"><i class="fas fa-bars"></i>
+                    </div>
+					<div class="top-menu ms-auto">
+						<ul class="navbar-nav">
+							<li class="nav-item mobile-search-icon">
+								<a class="nav-link" href="#"><i class="fas fa-magnifying-glass"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" id="fullscreen-btn"><i class="fas fa-expand"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" id="nightmode-btn"><i class="fas fa-moon"></i>
+								</a>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+								   data-bs-toggle="dropdown" aria-expanded="false"> <span class="alert-count">5</span>
+									<i class="fas fa-bell"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<div class="top-notifications-list" style="display: none;">
+									</div>
+								</div>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+								   data-bs-toggle="dropdown" aria-expanded="false"> <span class="alert-count">6</span>
+									<i class="fas fa-message"></i>
+
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<div class="top-message-list" style="display: none;">
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+                    <div class="account-box dropdown">
+                        <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://tianyantui.oss-cn-shenzhen.aliyuncs.com/data/1688700865050.u=2534210359,1730673110&fm=253&fmt=auto&app=120&f=JPEG" class="user-img" alt="user avatar">
+                            <div class="user-info ps-3">
+                                <p class="user-name">测试</p>
+                                <p class="designation">管理员</p>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="javascript:void(0);"><i
+                                        class="fas fa-right-from-bracket m-1"></i><span class="loginOut">退出登录</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="main-content">
+            <!--breadcrumb start-->
+            <div class="page-title">
+                <div class="row">
+                    <div class="col-6">
+                        <h3>添加</h3>
+                    </div>
+
+                </div>
+            </div>
+            <!--breadcrumb end-->
+            <div class="page-content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4></h4>
+                            </div>
+                            <div class="card-body">
+								<div class="row">
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">案件编号</label>
+														<input type="text" class="form-control caseNumber"  pplaceholder="请输入案件编号">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">案件名称</label>
+														<input type="text" class="form-control caseName"  pplaceholder="请输入案件名称">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">案件类型</label>
+														<input type="text" class="form-control caseType"  pplaceholder="请输入案件类型">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">案件状态</label>
+														<input type="text" class="form-control caseStatus"  pplaceholder="请输入案件状态">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">案件描述</label>
+														<input type="text" class="form-control caseDescription"  pplaceholder="请输入案件描述">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">鉴定人</label>
+														<input type="text" class="form-control appraiser"  pplaceholder="请输入鉴定人">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">鉴定机构</label>
+														<input type="text" class="form-control appraisalInstitution"  pplaceholder="请输入鉴定机构">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">鉴定结果</label>
+														<input type="text" class="form-control identificationResults"  pplaceholder="请输入鉴定结果">
+										</div>
+								</div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="d-md-flex d-grid align-items-center gap-3">
+                                     
+                                        <button type="button" class="btn btn-primary submitMsg" id="swal-2">提交</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay sidebar-toggle-icon">
+        </div>
+    </div>
+    <script src="assets/lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/metismenu/js/metisMenu.min.js"></script>
+    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    
+	<script src="assets/lib/sweetalert/sweetalert.min.js"></script>
+	<script src="assets/js/pages/sweetalert.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+		var currentUrl = window.location.pathname;
+		var pageName = currentUrl.split('/').pop();
+		var menuLinks = document.querySelectorAll('ul.metismenu li a');
+		menuLinks.forEach(function(link) {
+			var linkHref = link.getAttribute('href');
+			if (currentUrl.includes(linkHref)) {
+				var parentLi = link.closest('li');
+				parentLi.classList.add('mm-active');
+
+			}
+		});
+
+		const submitMsg = document.querySelector('.submitMsg')
+		const caseManagementItemInfo = JSON.parse(localStorage.getItem('caseManagementItemInfo'))
+
+		if (caseManagementItemInfo != null) {
+			const caseNumber = document.querySelector('.caseNumber')
+					caseNumber.value = caseManagementItemInfo.案件编号
+			const caseName = document.querySelector('.caseName')
+					caseName.value = caseManagementItemInfo.案件名称
+			const caseType = document.querySelector('.caseType')
+					caseType.value = caseManagementItemInfo.案件类型
+			const caseStatus = document.querySelector('.caseStatus')
+					caseStatus.value = caseManagementItemInfo.案件状态
+			const caseDescription = document.querySelector('.caseDescription')
+					caseDescription.value = caseManagementItemInfo.案件描述
+			const appraiser = document.querySelector('.appraiser')
+					appraiser.value = caseManagementItemInfo.鉴定人
+			const appraisalInstitution = document.querySelector('.appraisalInstitution')
+					appraisalInstitution.value = caseManagementItemInfo.鉴定机构
+			const identificationResults = document.querySelector('.identificationResults')
+					identificationResults.value = caseManagementItemInfo.鉴定结果
+		}
+		// 图片
+		const addbtn = document.querySelector('.addbtn')
+
+		submitMsg.addEventListener('click', function () {
+					const caseNumber = document.querySelector('.caseNumber')
+					const caseName = document.querySelector('.caseName')
+					const caseType = document.querySelector('.caseType')
+					const caseStatus = document.querySelector('.caseStatus')
+					const caseDescription = document.querySelector('.caseDescription')
+					const appraiser = document.querySelector('.appraiser')
+					const appraisalInstitution = document.querySelector('.appraisalInstitution')
+					const identificationResults = document.querySelector('.identificationResults')
+					const imgUrl = 'https://ts1.cn.mm.bing.net/th/id/R-C.2a36cfa27aed2122230d6172817edc5f?rik=Hnp99nHpXSiPiw&riu=http%3a%2f%2fpic.22520.cn%2ftuku%2f200228%2f1582864482777017.jpg&ehk=mUtr3Nop0KUK8J45igo%2beaCZJ%2b2jU3CyfMiDauR3pFg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"'
+					const id = 0
+					// 编辑赋值
+					if (caseManagementItemInfo) {
+						const newArr =  [...JSON.parse(localStorage.getItem('caseManagement'))]
+						newArr.forEach(item => {
+							if (item.id == caseManagementItemInfo.id) {
+										item.案件编号 = caseNumber.value
+										,
+										item.案件名称 = caseName.value
+										,
+										item.案件类型 = caseType.value
+										,
+										item.案件状态 = caseStatus.value
+										,
+										item.案件描述 = caseDescription.value
+										,
+										item.鉴定人 = appraiser.value
+										,
+										item.鉴定机构 = appraisalInstitution.value
+										,
+										item.鉴定结果 = identificationResults.value
+										
+							}
+						});
+						localStorage.setItem('caseManagement', JSON.stringify(newArr))
+					}
+					// 否则就是新增
+					else {
+						if(localStorage.getItem('caseManagement')){
+							var newArr = [...JSON.parse(localStorage.getItem('caseManagement'))];
+						}else{
+							var newArr = [];
+						}
+						newArr.unshift({
+							"id": newArr.length == 0 ? 1:newArr[0].id+1,
+							"案件编号" : caseNumber.value,
+							"案件名称" : caseName.value,
+							"案件类型" : caseType.value,
+							"案件状态" : caseStatus.value,
+							"案件描述" : caseDescription.value,
+							"鉴定人" : appraiser.value,
+							"鉴定机构" : appraisalInstitution.value,
+							"鉴定结果" : identificationResults.value,
+						})
+						localStorage.setItem('caseManagement', JSON.stringify(newArr))
+						addbtn.click()
+					}
+					setInterval(function () {
+						location.href='caseManagement.html'
+						localStorage.removeItem('caseManagementItemInfo')
+					},1000)
+				}
+		)
+
+    </script>
+</body>
+
+</html>

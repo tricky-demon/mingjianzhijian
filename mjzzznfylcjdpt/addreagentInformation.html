@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <meta name="robots" content="noindex, nofollow">
+    <!--favicon-->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <!--css-->
+    <link href="assets/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="assets/lib/metismenu/css/metisMenu.min.css" rel="stylesheet">
+    <link href="assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <title>明鉴智佐智能法医临床鉴定平台</title>
+</head>
+
+<body>
+    <!--preloader-->
+    <div class="preloader"></div>
+    <!--main wrapper start-->
+    <div class="main-wrapper">
+        <!--sidebar start -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+				<div class="title">
+					<h6 style="text-align: center;color: var(--color-primary);">明鉴智佐智能法医临床鉴定平台</h6>
+				</div>
+                <div class="sidebar-toggle-icon ms-auto"><i class="fa fa-bars"></i>
+                </div>
+            </div>
+            <!--navigation start-->
+            <ul class="metismenu" id="menu">
+                <li>
+                    <a href="index.html">
+                        <div class="icon"><i class="fas fa-house"></i>
+                        </div>
+                        <div class="title">首页</div>
+                    </a>
+
+                </li>
+						<li>
+							<a href="javascript:void(0);" class="has-arrow">
+								<div class="icon"><i class="fa fa-area-chart"></i></div>
+								<div class="title">案件管理</div>
+							</a>
+							<ul>
+								<li> <a href="caseManagement.html"><i class="fa fa-minus"></i>案件管理</a></li>
+									<li><a href="caseInformation.html"><i class="fa fa-minus"></i>案件信息</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="has-arrow">
+								<div class="icon"><i class="fa fa-caret-up"></i></div>
+								<div class="title">实验室信息</div>
+							</a>
+							<ul>
+								<li> <a href="laboratoryInformation.html"><i class="fa fa-minus"></i>实验室信息</a></li>
+									<li><a href="reagentInformation.html"><i class="fa fa-minus"></i>试剂信息</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="has-arrow">
+								<div class="icon"><i class="fa fa-female"></i></div>
+								<div class="title">设备信息</div>
+							</a>
+							<ul>
+								<li> <a href="equipmentInformation.html"><i class="fa fa-minus"></i>设备信息</a></li>
+									<li><a href="personnelInformation.html"><i class="fa fa-minus"></i>人员信息</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="has-arrow">
+								<div class="icon"><i class="fa fa-external-link"></i></div>
+								<div class="title">数据统计</div>
+							</a>
+							<ul>
+								<li> <a href="dataStatistics.html"><i class="fa fa-minus"></i>数据统计</a></li>
+							</ul>
+						</li>
+            </ul>
+            <!--navigation end-->
+        </div>
+        <!--sidebar end -->
+
+        <!--header top start-->
+        <header>
+            <div class="topbar">
+                <nav class="navbar navbar-expand">
+                    <div class="mobile-toggle-menu"><i class="fas fa-bars"></i>
+                    </div>
+					<div class="top-menu ms-auto">
+						<ul class="navbar-nav">
+							<li class="nav-item mobile-search-icon">
+								<a class="nav-link" href="#"><i class="fas fa-magnifying-glass"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" id="fullscreen-btn"><i class="fas fa-expand"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#" id="nightmode-btn"><i class="fas fa-moon"></i>
+								</a>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+								   data-bs-toggle="dropdown" aria-expanded="false"> <span class="alert-count">2</span>
+									<i class="fas fa-bell"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<div class="top-notifications-list" style="display: none;">
+									</div>
+								</div>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+								   data-bs-toggle="dropdown" aria-expanded="false"> <span class="alert-count">3</span>
+									<i class="fas fa-message"></i>
+
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<div class="top-message-list" style="display: none;">
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+                    <div class="account-box dropdown">
+                        <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://tianyantui.oss-cn-shenzhen.aliyuncs.com/data/1688700865050.u=2534210359,1730673110&fm=253&fmt=auto&app=120&f=JPEG" class="user-img" alt="user avatar">
+                            <div class="user-info ps-3">
+                                <p class="user-name">测试</p>
+                                <p class="designation">管理员</p>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="javascript:void(0);"><i
+                                        class="fas fa-right-from-bracket m-1"></i><span class="loginOut">退出登录</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="main-content">
+            <!--breadcrumb start-->
+            <div class="page-title">
+                <div class="row">
+                    <div class="col-6">
+                        <h3>添加</h3>
+                    </div>
+
+                </div>
+            </div>
+            <!--breadcrumb end-->
+            <div class="page-content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4></h4>
+                            </div>
+                            <div class="card-body">
+								<div class="row">
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">试剂名称</label>
+														<input type="text" class="form-control reagentName"  pplaceholder="请输入试剂名称">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">试剂规格</label>
+														<input type="text" class="form-control reagentSpecifications"  pplaceholder="请输入试剂规格">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">试剂厂家</label>
+														<input type="text" class="form-control manufacturerOf"  pplaceholder="请输入试剂厂家">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">试剂标签</label>
+														<input type="text" class="form-control shiJiBiaoQian"  pplaceholder="请输入试剂标签">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">检测项目</label>
+														<input type="text" class="form-control testingItems"  pplaceholder="请输入检测项目">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">检测方法</label>
+														<input type="text" class="form-control testingMethod"  pplaceholder="请输入检测方法">
+										</div>
+										<div class="col-md-6 mb-3">
+														<label  class="form-label">检测结果</label>
+														<input type="text" class="form-control detectionResults"  pplaceholder="请输入检测结果">
+										</div>
+								</div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="d-md-flex d-grid align-items-center gap-3">
+                                     
+                                        <button type="button" class="btn btn-primary submitMsg" id="swal-2">提交</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay sidebar-toggle-icon">
+        </div>
+    </div>
+    <script src="assets/lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/jquery/jquery.min.js"></script>
+    <script src="assets/lib/metismenu/js/metisMenu.min.js"></script>
+    <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    
+	<script src="assets/lib/sweetalert/sweetalert.min.js"></script>
+	<script src="assets/js/pages/sweetalert.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+		var currentUrl = window.location.pathname;
+		var pageName = currentUrl.split('/').pop();
+		var menuLinks = document.querySelectorAll('ul.metismenu li a');
+		menuLinks.forEach(function(link) {
+			var linkHref = link.getAttribute('href');
+			if (currentUrl.includes(linkHref)) {
+				var parentLi = link.closest('li');
+				parentLi.classList.add('mm-active');
+
+			}
+		});
+
+		const submitMsg = document.querySelector('.submitMsg')
+		const reagentInformationItemInfo = JSON.parse(localStorage.getItem('reagentInformationItemInfo'))
+
+		if (reagentInformationItemInfo != null) {
+			const reagentName = document.querySelector('.reagentName')
+					reagentName.value = reagentInformationItemInfo.试剂名称
+			const reagentSpecifications = document.querySelector('.reagentSpecifications')
+					reagentSpecifications.value = reagentInformationItemInfo.试剂规格
+			const manufacturerOf = document.querySelector('.manufacturerOf')
+					manufacturerOf.value = reagentInformationItemInfo.试剂厂家
+			const shiJiBiaoQian = document.querySelector('.shiJiBiaoQian')
+					shiJiBiaoQian.value = reagentInformationItemInfo.试剂标签
+			const testingItems = document.querySelector('.testingItems')
+					testingItems.value = reagentInformationItemInfo.检测项目
+			const testingMethod = document.querySelector('.testingMethod')
+					testingMethod.value = reagentInformationItemInfo.检测方法
+			const detectionResults = document.querySelector('.detectionResults')
+					detectionResults.value = reagentInformationItemInfo.检测结果
+		}
+		// 图片
+		const addbtn = document.querySelector('.addbtn')
+
+		submitMsg.addEventListener('click', function () {
+					const reagentName = document.querySelector('.reagentName')
+					const reagentSpecifications = document.querySelector('.reagentSpecifications')
+					const manufacturerOf = document.querySelector('.manufacturerOf')
+					const shiJiBiaoQian = document.querySelector('.shiJiBiaoQian')
+					const testingItems = document.querySelector('.testingItems')
+					const testingMethod = document.querySelector('.testingMethod')
+					const detectionResults = document.querySelector('.detectionResults')
+					const imgUrl = 'https://ts1.cn.mm.bing.net/th/id/R-C.2a36cfa27aed2122230d6172817edc5f?rik=Hnp99nHpXSiPiw&riu=http%3a%2f%2fpic.22520.cn%2ftuku%2f200228%2f1582864482777017.jpg&ehk=mUtr3Nop0KUK8J45igo%2beaCZJ%2b2jU3CyfMiDauR3pFg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"'
+					const id = 0
+					// 编辑赋值
+					if (reagentInformationItemInfo) {
+						const newArr =  [...JSON.parse(localStorage.getItem('reagentInformation'))]
+						newArr.forEach(item => {
+							if (item.id == reagentInformationItemInfo.id) {
+										item.试剂名称 = reagentName.value
+										,
+										item.试剂规格 = reagentSpecifications.value
+										,
+										item.试剂厂家 = manufacturerOf.value
+										,
+										item.试剂标签 = shiJiBiaoQian.value
+										,
+										item.检测项目 = testingItems.value
+										,
+										item.检测方法 = testingMethod.value
+										,
+										item.检测结果 = detectionResults.value
+										
+							}
+						});
+						localStorage.setItem('reagentInformation', JSON.stringify(newArr))
+					}
+					// 否则就是新增
+					else {
+						if(localStorage.getItem('reagentInformation')){
+							var newArr = [...JSON.parse(localStorage.getItem('reagentInformation'))];
+						}else{
+							var newArr = [];
+						}
+						newArr.unshift({
+							"id": newArr.length == 0 ? 1:newArr[0].id+1,
+							"试剂名称" : reagentName.value,
+							"试剂规格" : reagentSpecifications.value,
+							"试剂厂家" : manufacturerOf.value,
+							"试剂标签" : shiJiBiaoQian.value,
+							"检测项目" : testingItems.value,
+							"检测方法" : testingMethod.value,
+							"检测结果" : detectionResults.value,
+						})
+						localStorage.setItem('reagentInformation', JSON.stringify(newArr))
+						addbtn.click()
+					}
+					setInterval(function () {
+						location.href='reagentInformation.html'
+						localStorage.removeItem('reagentInformationItemInfo')
+					},1000)
+				}
+		)
+
+    </script>
+</body>
+
+</html>
